@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  align-items: center;
+  background-image: url('../images/mask.svg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 130px);
+}
+.main article {
+  margin-left: 10%;
+  width: 515px;
+  min-width: 350px;
+}
+.main article h1 {
+  color: #291d61;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  margin-bottom: 40px;
+}
+.main article p {
+  font-weight: 300;
+  color: #363049;
+  margin-bottom: 60px;
+}
+.main article button{
+    color: #fff;
+    background-color: #7951F9;
+    border: 0;
+    border-radius: 10px;
+    width: 242px;
+    height: 70px;
+    font-size: 20px;
+}

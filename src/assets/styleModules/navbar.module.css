@@ -1,5 +1,6 @@
 .navbar a{
  text-decoration: none;
+ font-weight: 300;
 }
 .navbar a:not(:last-child, :first-child){
     padding: 45px;
