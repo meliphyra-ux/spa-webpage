@@ -2,13 +2,10 @@
   display: flex;
   align-items: center;
   background-image: url('../images/mask.svg');
-  background-position: center;
-  background-size: cover;
   width: 100%;
   height: calc(100vh - 130px);
 }
 .main article {
-  margin-left: 10%;
   width: 515px;
   min-width: 350px;
 }
@@ -27,9 +24,15 @@
 .main article button{
     color: #fff;
     background-color: #7951F9;
+    cursor: pointer;
     border: 0;
     border-radius: 10px;
     width: 242px;
     height: 70px;
     font-size: 20px;
+    transition: all 0.3s ease;
+}
+.main article button:hover{
+  color: #7951F9;
+  background-color: #fff;
 }
