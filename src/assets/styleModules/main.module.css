@@ -4,6 +4,7 @@
   background-image: url('../images/mask.svg');
   width: 100%;
   height: calc(100vh - 130px);
+  min-height: 0;
 }
 .main article {
   width: 515px;
