@@ -1,0 +1,22 @@
+.resultBlock {
+  background-image: url("../images/resultBg.svg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.resultBlock article{
+    width: 512px;
+    min-width: 280px;
+    color: #2D1D61;
+    font-size: 36px;
+}
+.resultBlock article h1{
+    color: inherit;
+    margin-bottom: 40px;
+}
+.resultBlock article p{
+    color: #363049;
+    font-size: 16px;
+}

@@ -3,7 +3,7 @@
     justify-content: space-between;
     flex-flow: row wrap;
     align-items: center;
-    background-image: url('../images/bg.png');
+    background-image: url('../images/bg.svg');
 }
 @media screen and (max-width: 1020px) {
     .cardBlock{

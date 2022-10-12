@@ -1,18 +1,17 @@
 import './App.css';
-import React, { Suspense } from 'react';
+import React from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
-
-const CardBlock = React.lazy(() => import('./components/CardBlock'))
+import CardBlock from './components/CardBlock'
+import ResultBlock from './components/ResultBlock';
 
 function App() {
   return (
     <main className="App">
         <Header />
         <Main />
-        <Suspense fallback={<div>Loading...</div>}>
-          <CardBlock />
-        </Suspense>
+        <CardBlock />
+        <ResultBlock />
     </main>
   );
 }
