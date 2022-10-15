@@ -1,0 +1,17 @@
+.FAQBlock{
+    width: 50%;
+    min-height: 100px;
+    background-color: #ffffff;
+}
+.FAQBlock img, .FAQBlock h2{
+    display: inline-block;
+    vertical-align: middle;
+}
+.FAQBlock h2{
+    width: 80%;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.FAQBlock p{
+    margin: 30px 0 0 60px;
+}
