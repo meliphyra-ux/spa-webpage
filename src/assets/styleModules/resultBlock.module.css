@@ -1,9 +1,7 @@
 .resultBlock {
-  background-image: url("../images/resultBg.svg");
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
 }
 .resultBlock article{
@@ -17,6 +15,7 @@
     margin-bottom: 40px;
 }
 .resultBlock article p{
+    width: 80%;
     color: #363049;
     font-size: 16px;
 }
