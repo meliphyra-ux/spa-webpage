@@ -6,7 +6,7 @@
   box-sizing: border-box;
   color: #000;
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
 }
 main{
   background-color: #fff;
@@ -16,7 +16,7 @@ main{
   align-items: center;
 }
 main section{
-  min-height: 75vh;
+  aspect-ratio: 2.67/1;
   width: 100%;
   padding: 0 10%;
 }
